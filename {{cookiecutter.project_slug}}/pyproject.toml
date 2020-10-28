@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "{{ cookiecutter.project_name }}"
+name = "{{ cookiecutter.project_slug }}"
 version = "0.1.0"
-description = "A FastAPI project"
+description = "{{ cookiecutter.project_name }}"
 authors = ["Me"]
 license = "MIT"
 
